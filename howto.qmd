@@ -1,0 +1,23 @@
+# [How to Use this Book]{style="color: #004b23"} {.unnumbered}
+
+This book contains several types of resources: narrative text, definitions and questions for reflection, as well as references.
+
+In XX chapters, we provide narrative summaries about classical research in social psychology and its modern follow-up. Often, this means we include new attempts to show the same finding (replication attempts) or meta-analytical work that brings together a lot of evidence from different sources regarding a certain hypothesis. Each chapter contains an overview of the classic study, a summary of important work thereafter, as well as a conclusion. 
+
+Because this volume is targeted at students, we provide definitions of key terms, preceded by [#definition]{style="color: orchid"} and displayed like this:
+
+> [#definition]{style="color: orchid"} Replication
+>
+> An attempt to find the same result as a previous study in a new data set.
+
+We have aimed at providing a critical but neutral perspective to the classical and modern studies of social psychology discussed in the texts of this volume. To help you develop your own perspective and a well-reflected attitude towards this work, you will find guiding questions and suggestions that might prompt you to think more deeply about what you read throughout the book. You'll recognize these prompts by the preceding [#yourturn.]{style="color: green"} Here is an example of what these questions look like:
+
+> [#yourturn]{style="color: green"}
+>
+> Do you think you might find such questions for reflection useful?
+
+Finally, we have enabled the option to collaboratively annotate this work using [hypothesis](https://web.hypothes.is/) (note that this is how links are formatted in this book) in the online version. Your annotations will be visible to others, and others will be able to see yours, so that we can build a better learning experience using this book together. 
+
+To read up on the original research we cite in this book, such as from @vazire2018, you can hover over or click on the references provided.
+
+Feel free to make use of the resources in this book as you see fit. Our hope is that they will support you in building a well-reflected opinion about the existing body of knowledge in social psychology.

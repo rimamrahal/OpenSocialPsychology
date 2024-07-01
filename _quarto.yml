@@ -1,0 +1,74 @@
+project:
+  type: book
+
+book:
+  title: "Open Social Psychology"
+  cover-image: cover.png
+  author: 
+    - name: "Rima-Maria Rahal"
+      orcid: 0000-0002-1404-0471
+      email: rahal@coll.mpg.de
+      affiliations:
+        - name: Heidelberg University, Insitute of Psychology & Max Planck Institute for Research on Collective Goods
+          address: Hauptstraße 47-51
+          city: 69117 Heidelberg
+          state: Germany
+  date: 2024-07-27
+  downloads: [pdf, epub]
+  page-footer: 
+    left: |
+      Open Social Psychology
+    right: |
+      Edited by Rima-Maria Rahal
+  sidebar:
+    search: true
+    logo: resources/logo.png
+    tools:
+      - icon: twitter
+        href: https://twitter.com
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://code.com
+          - text: Report a Bug
+            href:  https://bugs.com
+  chapters:
+    - index.qmd
+    - howto.qmd
+    - intro.qmd
+    - chapter1.qmd
+    - summary.qmd
+    - references.qmd
+    - glossary.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: lux
+  pdf:
+    documentclass: book
+    keep-tex: true
+    output-file: pdf-book
+    link-citations: true
+    link-bibliography: true
+    linkcolor: green
+    citecolor: green
+    header-includes:
+      - \usepackage{fancyhdr}
+      - \usepackage{graphicx}
+      - \usepackage{eso-pic}
+      - \usepackage{tikz}
+      - \AtBeginDocument{\thispagestyle{empty}\begin{tikzpicture}[remember picture,overlay]
+              \node at (current page.center) [yshift=1cm] {\includegraphics[width=0.75\paperwidth,height=0.9\paperheight,keepaspectratio]{resources/cover.png}};
+              \end{tikzpicture}\clearpage}
+  epub: 
+    cover-image: cover.png
+
+editor: source
+
+comments:
+  hypothesis: true
+  
+callout-appearance: simple
+callout-icon: false

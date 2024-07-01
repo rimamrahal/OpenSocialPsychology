@@ -1,0 +1,40 @@
+# [Introduction]{style="color: #004b23"} {.unnumbered}
+
+## The Role of Change for Scientific Discovery
+
+Much of science capitalizes on change. It is the engine that drives progress and the expansion of knowledge [see @kuhn1962structure; @popper1959logic]. Embracing change means taking established theories and challenging them to explore new directions. Changing perspectives, questioning the status quo, refining existing concepts, and adapting to new evidence provide the stuff that makes breakthroughs or new insights. In essence, change in science represents taking steps forward, toward greater insight and reality checks for the challenges we face. In other words, to push the boundaries of what we know, we must make change.
+
+> [#yourturn]{style="color: green"}
+>
+> What instance of change regarding science have you recently heard about? Consider reports of breakthroughs you might have seen in the news or stories you saw on social media.
+
+In the past decade, Open Science has made change, by transforming research practices to promote transparency, reproducibility, and collaboration in scientific endeavors. By fostering a culture of openness and collaboration, Open Science has brought about a paradigm shift in research methodologies, paving the way for more robust and reliable scientific discoveries [@munafo2017manifesto; @vazire2022credibility]. It is certainly no small feat to fundamentally reform how research is done, and yet we have seen significant change towards Open practices [@kidwell2016badges; @chambers2019registered; @christensen2020open].
+
+> [#definition]{style="color: orchid"} Open Science
+>
+> An overhead term for a number of practices to make research more transparent, such as making the data a research is project is based on available to others.
+
+## Challenges of Making Change
+
+Change can be a challenge because it disrupts established norms, habits, and power structures. This often means that individuals and groups might be hesitant to embrace change. Open Science as a reform to refocus on good research practice had to work with this difficulty of making change, where new methods, theories, or technologies often encounter skepticism and opposition from the scientific community. Open Science promotes transparency, data sharing, and collaborative research, which can expose flaws underlying previously held beliefs or reveal alternative interpretations. This shift can create debates about long-held ideas and established practices, which are scrutinized and potentially overturned. Established researchers may be reluctant to abandon familiar paradigms, and institutions may resist reallocating resources or altering well-known processes. Sometimes, inertia of traditional practices and fear of uncertainty can slow the adoption of innovative approaches, despite their potential to advance knowledge and solve pressing problems. 
+
+> [#yourturn]{style="color: green"}
+>
+> Consider a big change you have experienced. Was it easy to adapt to this change?
+
+However, a questioning attitude and focus on methodological rigor and good practice also enhance the robustness and reliability of scientific conclusions by fostering an environment where continuous re-evaluation is encouraged. Thus, Open Science exemplifies how embracing change can lead to a more dynamic and resilient understanding of the world, even as it unsettles the familiar foundations of scientific consensus.
+
+Change often implies the potential for a changed perception of what used to be, particularly in comparison to what is now. This is also the case in the scope of changes assosciated with Open Science. In particular, what were once considered unassailable facts can become contested or uncertain as new methodologies, data, and technologies challenge established knowledge. This is where our focus lies in this book: reporting on classical studies in social psychology and the change in how they are seen now, following a wave of additional research (often with an Open Science flavor). 
+
+> [#yourturn]{style="color: green"}
+>
+> "I was today years old when I found out ..." What was the last long-held belief you had to give up?  
+
+In this spirit, when reading about the changes in perspective about classics in social psychology, there are two things to embrace: 
+
+On the one hand, revisiting classic social psychology studies is a demonstration on the profound impact they had on the field. Were they less important and less impactful, these studies would not draw continued debate, research interest and investment of resources. Therefore, reading classic studies can give readers a sense of what matters to social psychological research, from hot topics to hot paradigms and research methods.  
+
+On the other hand, following the course of the academic debate about these claims, insights and phenomena allows us to hone our skills in accumulating insights and adjusting our perception of the currently held beliefs in this area of research. Put differently, tracing efforts to replicate, to conduct meta-analyses or to establish boundary conditions to the findings postulated in a certain study mostly reflects well-intentioned interest in assessing the validity of the claims of the original study, attempting to produce clarity about our collective knowledge about the phenomenon of interest. Reassessing classical studies might require change in opinions, calibration and reflection, but it can surely spark renewed trust in research and in its ability to refine and build our joint knowledge. 
+
+
+

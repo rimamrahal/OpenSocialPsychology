@@ -1,0 +1,444 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+]{book}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage{tikz}
+\AtBeginDocument{\thispagestyle{empty}\begin{tikzpicture}[remember picture,overlay] \node at (current page.center) [yshift=1cm] {\includegraphics[width=0.75\paperwidth,height=0.9\paperheight,keepaspectratio]{cover.png}}; \end{tikzpicture}\clearpage}
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Open Social Psychology},
+  pdfauthor={Rima-Maria Rahal},
+  colorlinks=true,
+  linkcolor={green},
+  filecolor={Maroon},
+  citecolor={pink},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Open Social Psychology}
+\author{Rima-Maria Rahal}
+\date{2024-07-27}
+
+\begin{document}
+\frontmatter
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\mainmatter
+\bookmarksetup{startatroot}
+
+\chapter*{\texorpdfstring{{Preface}}{Preface}}\label{preface}
+\addcontentsline{toc}{chapter}{{Preface}}
+
+\markboth{{Preface}}{{Preface}}
+
+Social psychology is devoted to studying how individuals behave, think
+and feel within their social contexts. The field is therefore, by its
+very nature, set up for collaborative work. Leveraging the social
+context in which knowledge is generated is built in to the assumptions
+and interests that social psychology pursues. This fundamental attitude
+towards social embeddedness of knowledge is mirrored in the process by
+which this study book came to be. Through bringing together the work of
+students at Heidelberg University during the winter term of 2023, this
+volume offers diverse perspectives on a shared target topic: changing
+perceptions of classical social psychological research.
+
+Social psychology lore is built on a strong set of classical research
+paradigms and findings, featured in many of the textbooks, syllabi,
+online courses and teaching guides that aspiring psychologists study
+with and established psychologists use as teaching resources. However,
+the common body of knowledge that social psychology relies on is
+undergoing change. Modern research methods and changing attitudes
+towards permissible research practices bring about social psychological
+research that looks much different today than it used. This book is
+dedicated to tracing some of these changes, and to offering a version of
+record of the changing perceptions and interpretations of classic social
+psychology in the light of it's contemporary counterpart. As such, this
+study book is a snapshot of how we see social psychology today.
+
+Because it tends to be difficult to keep teaching and study materials up
+to date with emerging trends and debates, we see this study book as an
+addition to traditional educational resources in social psychology,
+published as an Open Educational Resource to aid the accessibility of
+this knowledge for all, and to be adapted to teachers' and learners'
+needs as they dive into what social psychology has to offer.
+
+\bookmarksetup{startatroot}
+
+\chapter*{\texorpdfstring{{How to Use this
+Book}}{How to Use this Book}}\label{how-to-use-this-book}
+\addcontentsline{toc}{chapter}{{How to Use this Book}}
+
+\markboth{{How to Use this Book}}{{How to Use this Book}}
+
+This book contains several types of resources: narrative text,
+definitions and questions for reflection, as well as references.
+
+In XX chapters, we provide narrative summaries about classical research
+in social psychology and its modern follow-up. Often, this means we
+include new attempts to show the same finding (replication attempts) or
+meta-analytical work that brings together a lot of evidence from
+different sources regarding a certain hypothesis.
+
+Because this work is targeted at students, we provide definitions of key
+terms, preceded by {\#definition} and displayed like this:
+
+\begin{quote}
+{\#definition} Replication
+
+An attempt to find the same result as a previous study in a new data
+set.
+\end{quote}
+
+We have aimed at providing a critical but neutral perspective to the
+classical and modern studies of social psychology discussed in the texts
+of this volumen. To help you develop your own perspective and a critical
+attitude towards this work, you will find guiding questions and
+suggestions that might prompt you to reflect on what you read throughout
+the book. You'll recognize these prompts by the preceding {\#yourturn.}
+Here is an example of what these questions look like:
+
+\begin{quote}
+{\#yourturn}
+
+Do you think you might find such questions for reflection useful?
+\end{quote}
+
+Finally, we have enabled the option to collaboratively annotate this
+work using \href{https://web.hypothes.is/}{hypothesis} (note that this
+is how links are formatted in this book). Your annotations will be
+visible to others, and others will be able to see yours, so that we can
+build a better learning experience using this book together.
+
+To read up on the original research we cite in this book, such as from
+Vazire (\citeproc{ref-vazire2018}{2018}), you can hover over or click on
+the references provided.
+
+Feel free to make use of the resources in this book as you see fit. Our
+hope is that they will support you in building a well-reflected opinion
+about the existing body of knowledge in social psychology.
+
+\bookmarksetup{startatroot}
+
+\chapter*{\texorpdfstring{{Introduction}}{Introduction}}\label{introduction}
+\addcontentsline{toc}{chapter}{{Introduction}}
+
+\markboth{{Introduction}}{{Introduction}}
+
+\section*{The Role of Change for Scientific
+Discovery}\label{the-role-of-change-for-scientific-discovery}
+\addcontentsline{toc}{section}{The Role of Change for Scientific
+Discovery}
+
+\markright{The Role of Change for Scientific Discovery}
+
+Much of science capitalizes on change. It is the engine that drives
+progress and the expansion of knowledge (see
+\citeproc{ref-kuhn1962structure}{Kuhn 1962};
+\citeproc{ref-popper1959logic}{Popper 1959}). Embracing change means
+taking established theories and challenging them to explore new
+directions. Changing perspectives, questioning the status quo, refining
+existing concepts, and adapting to new evidence provide the stuff that
+makes breakthroughs or new insights. In essence, change in science
+represents taking steps forward, toward greater insight and reality
+checks for the challenges we face. In other words, to push the
+boundaries of what we know, we must make change.
+
+\begin{quote}
+{\#yourturn}
+
+What instance of change regarding science have you recently heard about?
+Consider reports of breakthroughs you might have seen in the news or
+stories you saw on social media.
+\end{quote}
+
+In the past decade, Open Science has made change, by transforming
+research practices to promote transparency, reproducibility, and
+collaboration in scientific endeavors. By fostering a culture of
+openness and collaboration, Open Science has brought about a paradigm
+shift in research methodologies, paving the way for more robust and
+reliable scientific discoveries
+(\citeproc{ref-munafo2017manifesto}{Munafò et al. 2017};
+\citeproc{ref-vazire2022credibility}{Vazire, Schiavone, and Bottesini
+2022}). It is certainly no small feat to fundamentally reform how
+research is done, and yet we have seen significant change towards Open
+practices (\citeproc{ref-kidwell2016badges}{Kidwell et al. 2016};
+\citeproc{ref-chambers2019registered}{Chambers 2019};
+\citeproc{ref-christensen2020open}{Christensen et al. 2020}).
+
+\begin{quote}
+{\#definition} Open Science
+
+An overhead term for a number of practices to make research more
+transparent, such as making the data a research is project is based on
+available to others.
+\end{quote}
+
+Change often implies the potential for a changed perception of what used
+to be, particularly in comparison to what is now.
+
+\begin{quote}
+{\#yourturn}
+
+Consider
+\end{quote}
+
+\bookmarksetup{startatroot}
+
+\chapter*{\texorpdfstring{{Summary}}{Summary}}\label{summary}
+\addcontentsline{toc}{chapter}{{Summary}}
+
+\markboth{{Summary}}{{Summary}}
+
+Add here
+
+\section*{Take-Aways}\label{take-aways}
+\addcontentsline{toc}{section}{Take-Aways}
+
+\markright{Take-Aways}
+
+Add here
+
+\section*{Thanks}\label{thanks}
+\addcontentsline{toc}{section}{Thanks}
+
+\markright{Thanks}
+
+This book was made possible by the many helping hands and critical
+thoughts of the student authors involved in writing the individual
+chapters. In addition, Melissa Engelbarth's support with selecting and
+translating the chapters to include was invaluable.
+
+\bookmarksetup{startatroot}
+
+\chapter*{References}\label{references}
+\addcontentsline{toc}{chapter}{References}
+
+\markboth{References}{References}
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-chambers2019registered}
+Chambers, Chris. 2019. {``The Registered Reports Revolution Lessons in
+Cultural Reform.''} \emph{Significance} 16 (4): 23--27.
+
+\bibitem[\citeproctext]{ref-christensen2020open}
+Christensen, Garret, Zenan Wang, Elizabeth Levy Paluck, Nicholas
+Swanson, David Birke, Edward Miguel, and Rebecca Littman. 2020. {``Open
+Science Practices Are on the Rise: The State of Social Science (3S)
+Survey.''}
+
+\bibitem[\citeproctext]{ref-kidwell2016badges}
+Kidwell, Mallory C, Ljiljana B Lazarević, Erica Baranski, Tom E
+Hardwicke, Sarah Piechowski, Lina-Sophia Falkenberg, Curtis Kennett, et
+al. 2016. {``Badges to Acknowledge Open Practices: A Simple, Low-Cost,
+Effective Method for Increasing Transparency.''} \emph{PLoS Biology} 14
+(5): e1002456.
+
+\bibitem[\citeproctext]{ref-kuhn1962structure}
+Kuhn, Thomas. 1962. {``The Structure of Scientific Revolutions.''}
+\emph{International Encyclopedia of Unified Science} 2 (2).
+
+\bibitem[\citeproctext]{ref-munafo2017manifesto}
+Munafò, Marcus R, Brian A Nosek, Dorothy VM Bishop, Katherine S Button,
+Christopher D Chambers, Nathalie Percie du Sert, Uri Simonsohn, Eric-Jan
+Wagenmakers, Jennifer J Ware, and John Ioannidis. 2017. {``A Manifesto
+for Reproducible Science.''} \emph{Nature Human Behaviour} 1 (1): 1--9.
+
+\bibitem[\citeproctext]{ref-popper1959logic}
+Popper, Karl R. 1959. \emph{The Logic of Scientific Discovery}.
+Hutchinson \& Co.
+
+\bibitem[\citeproctext]{ref-vazire2018}
+Vazire, Simine. 2018. {``Implications of the Credibility Revolution for
+Productivity, Creativity, and Progress.''} \emph{Perspectives on
+Psychological Science} 13 (4): 411--17.
+\url{https://doi.org/10.1177/1745691617751884}.
+
+\bibitem[\citeproctext]{ref-vazire2022credibility}
+Vazire, Simine, Sarah R Schiavone, and Julia G Bottesini. 2022.
+{``Credibility Beyond Replicability: Improving the Four Validities in
+Psychological Science.''} \emph{Current Directions in Psychological
+Science} 31 (2): 162--68.
+
+\end{CSLReferences}
+
+\bookmarksetup{startatroot}
+
+\chapter*{\texorpdfstring{{Glossary}}{Glossary}}\label{glossary}
+\addcontentsline{toc}{chapter}{{Glossary}}
+
+\markboth{{Glossary}}{{Glossary}}
+
+Add here
+
+
+\backmatter
+
+\end{document}
