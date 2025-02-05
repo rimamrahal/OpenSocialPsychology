@@ -9,11 +9,11 @@ book:
       orcid: 0000-0002-1404-0471
       email: rahal@coll.mpg.de
       affiliations:
-        - name: Heidelberg University, Insitute of Psychology & Max Planck Institute for Research on Collective Goods
-          address: Hauptstraße 47-51
-          city: 69117 Heidelberg
+        - name: Max Planck Institute for Research on Collective Goods
+          address: Kurt-Schumacher-Str. 10
+          city: 53113 Bonn
           state: Germany
-  date: 2024-07-27
+  date: 2025-02-05
   downloads: [pdf, epub]
   page-footer: 
     left: |
@@ -24,16 +24,15 @@ book:
     search: true
     logo: resources/logo.png
     tools:
-      - icon: twitter
-        href: https://twitter.com
       - icon: github
         menu:
           - text: Source Code
-            href:  https://code.com
+            href:  https://github.com/rimamrahal/OpenSocialPsychology
           - text: Report a Bug
-            href:  https://bugs.com
+            href:  https://github.com/rimamrahal/OpenSocialPsychology/issues
   chapters:
     - index.qmd
+    - howthisbook.qmd
     - howto.qmd
     - intro.qmd
     - chapter1.qmd

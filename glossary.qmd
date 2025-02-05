@@ -1,3 +1,9 @@
 # [Glossary]{style="color: #004b23"} {.unnumbered}
 
-Add here
+In this glossary, you can find the terms defined in this book in alphabetical order.
+
+#### [Ego Depletion](chapter1.qmd#def-egodepletion)
+A concept that describes willpower as a limited resource that can be used up (depleted).
+
+#### [Multi-Lab Study](chapter1.qmd#def-multilabstudy)
+A research project in which researchers working at several different locations (laboratories) implement the same experimental design and then analyse the data together.

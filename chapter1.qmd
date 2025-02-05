@@ -1,21 +1,67 @@
 # [Ego Depletion]{style="color: #004b23"}
 
-[by Hannah Baumgart]{style="color: gray;"}
+[written by Hannah Baumgart and Rima-Maria Rahal]{style="color: gray;"}
 
 ## The Classic
 
-Ego depletion is a social psychological concept that describes the depletion of individuals' self-regulatory resources. Baumeister et al. (1998) were the first to demonstrate an ego depletion effect by investigating the effects of a preceding act of self-control in four different experimental settings. In Experiment 1, the focus was placed on the act of resisting a temptation by first assigning participants to different food conditions, i.e. the independent variables: Chocolate, radish or no food at all (control group). Participants in the radish control condition were instructed to resist the tempting chocolates and instead eat the radish that was next to the chocolate. The whole thing was disguised with a cover story. After the test subjects had completed the first "willpower task", they had to complete questionnaires on mood and restraint and then "solve" an unsolvable problem-solving task in which the time spent solving the problem was the dependent variable.
+Ego depletion is a social psychological concept that describes the depletion of individuals' self-regulatory resources. @baumeister1998 were the first to demonstrate ego depletion effects in four different experimental settings: After having to engage in an act of self-control (compared to a control task that does not require self-control), willpower is used up and could not be deployed as effectively in a subsequent task.
 
-The results showed significant differences between the three conditions, with participants in the radish condition stopping earlier than those in the chocolate or no-food condition ($F(2, 64) = 26.88, p < .001$). In conclusion, it was hypothesized that craving chocolate but choosing to eat radishes, even in seemingly simple and safe circumstances, depleted an internal resource, leaving individuals less able to solve the puzzles.
+> [#definition]{#def-egodepletion style="color: orchid"} Ego Depletion
+>
+> A concept that describes willpower as a limited resource that can be used up (depleted).
+
+In Experiment 1, the focus was on the act of resisting a temptation, which requires self-control. Participants were randomly assigned to different food conditions, by which the independent variables were manipulated: Chocolate chip cookies and chocolate, radishes or no food at all (control group). Participants in the radish control condition were instructed to resist the tempting chocolates and instead eat several the radishes that were laid out next to the chocolate. In the chocolate condition, participants were asked to eat several cookies or chocolates, which were laid out next to the radishes – a task that was not supposed to require much self-control. The actual intention behind the experiment, to demonstrate ego depletion, was disguised with a cover story to make sure participants would not get suspicious. They were told the experiment was about taste perception.
+
+> [#yourturn]{style="color: green"}
+>
+> Which other tasks in your daily life require more or less willpower?
+
+In the no-food control condition, participants were not asked to taste any food, but worked on the rest of the experiment.
+
+After the participants had completed the willpower task resisting the temptation of the foods presented to them, they had to complete questionnaires on mood and restraint. Then they had to work on "solving" a problem-solving task, which was actually unsolvable. Here, the time spent on trying to solve the problem before giving up was the dependent variable.
+
+The results showed significant differences between the three conditions, with participants in the radish condition stopping earlier than those in the chocolate or no-food condition. In conclusion, it was suggested that craving chocolate but choosing to eat radishes depleted an internal resource, leaving individuals less able to persist while trying to solve the puzzles afterwards.
+
+> [#yourturn]{style="color: green"}
+>
+> If willpower can be depleted, how can it be "refilled" or built up again?
 
 ## The Aftermath
 
-Since this study, many replications and meta-analyses have been carried out. Building on the meta-study by Carter et al. (2015), the meta-analysis conducted by Dang, Liu, Liu and Mao (2017) aimed to investigate the ego depletion effect, focusing on whether initial effort, particularly the depleting task, has a significant impact. The study's inclusion criteria required the depleting task to be a valid measure of self-control and to exclude factors such as social exclusion. The new experiments also included an exhaustion condition and a control condition. Methodologically, Hedges g and the random effects model were used here, as well as the trim-and-fill method for publication bias correction. Eight commonly used depletion tasks were analyzed, namely attention essay, attention video, crossing out letters, emotion video, food trial, Stroop, thought suppression, and working memory.
+Since this study, several hundred follow-up studies, including several multi-lab studies that aimed to replicate the overall finding [@hagger2010; @vohs2021] and several meta-analyses [@hagger2010; @carter2014; @dang2017a; @blázquez2017] have been carried out.
 
-The results showed that two exhaustive tasks, namely attention video and working memory, had no statistically significant effect on subsequent self-control. Due to the limited sample size, the effect of challenging math tasks and transcription could not be estimated. Emotion videos, on the other hand, appeared to be the most effective. The overall analysis revealed a small to medium effect size for the ego depletion effect, which remained significant after bias correction. A separate analysis for reliable depletion tasks, such as attention essay, emotion video and Stroop, confirmed the significant effect and reduced heterogeneity. With regard to the overall effect of ego depletion, the meta-analysis revealed a small to moderate effect size (g=0.24), but its effect was not classified as statistically significant.
+> [#definition]{#def-multilabstudy style="color: orchid"} Multi-Lab Study
+>
+> A research project in which researchers working at several different locations (laboratories) implement the same experimental design and then analyse the data together.
 
-The results suggest a differentiated view of the finite resource of willpower. Although the meta-analysis supports the idea of ego depletion, it emphasizes above all the importance of the effectiveness of the depletion task for the ego depletion effect.
+These studies yielded mixed results, with some concluding that it was highly unlikely that the ego depletion phenomenon does not exist [e.g., @hagger2010], while others failed to establish the effect despite relying on data from more than 2000 participants [e.g., @hagger2010]. Publication bias has been argued to be high in the literature on ego depletion [ @inzlicht2015], casting doubt on the effect.
+
+> [#definition]{style="color: orchid"} Publication Bias
+>
+> A tendency for research in line with established theories or showing significant results to be more easily publishable than deviating research.
+
+Continued research interest on ego depletion has brought forward varying hypotheses regarding circumstances under which the effect might be demonstrable and robust. The meta-analysis on ego depletion conducted by @dang2017a investigated only studies with sufficient initial effort exerted in the depleting, which was hypothesized to lead to the ego depletion effect. The study ensured that the depleting task required the use of self-control and excluded manipulations that were less clearly related to self-control, such as those based on social exclusion. Eight commonly used depletion tasks were assessed in the meta-analysis: attention essay, attention video, crossing out letters, emotion video, food trial, Stroop, thought suppression, and working memory.
+
+> [#yourturn]{style="color: green"}
+>
+> Can you imagine what participants had to do in these tasks? Think about a version of each task that would drain self-control and one that would be less exhausting.
+
+The results showed that two of these exhausting tasks, attention video and working memory, were not associated with significant changes in subsequent self-control. Emotion videos, on the other hand, appeared to be the most effective task and reduced subsequent self-control.
+
+The overall analysis revealed a small to medium effect size for the ego depletion effect. Correcting for publication bias, this effect was not statistically significant when using the full sample of studies identified. However, a separate analysis for reliable depletion tasks, such as attention essay, emotion video and Stroop, showed the significant effect remained when attempting to correct for publication bias. This meta-analysis suggests that in special tasks, ego depletion might occur, but that it is difficult to generalize to other circumstances.
+
+However, even in these special tasks, there is often no direct measure of the initial depletion of willpower involved: manipulation checks on whether willpower has been used up offer only an indirect measurement [@friese2018].
+
+> [#yourturn]{style="color: green"}
+>
+> How could you objectiveley measure the amount of willpower available or drained?
 
 ## Conclusion
 
-In the context of social psychological theories, this effect can be seen as a prime example of contradictory and publication-biased findings in research. It demonstrates that one-off effects can only be confirmed through multiple empirical research, including many replications that can provide a more realistic picture of the effect or construct. This is because the ego-depletion effect was also initially subject to publication bias, i.e. the preference for the publication of studies with "positive" or significant results in scientific journals and was only examined in more detail following the replication crisis in 2015. The meta- analysis shows well how important it is to examine individual variables (in this case the type of depleting task) under the microscope in order to ensure the quality criteria that are essential for evidence of the overall effect.
+The literature suggests a differentiated view on the potentially finite nature of willpower is necessary [for a detailed overview, read more in @friese2018]. In the context of social psychological theories, the ego depletion effect can be seen as an important example of contradictory findings in research, where publication bias may play a role. Although several hundred studies on ego depletion have been published, we cannot be sure whether ego depletion exists or not.
+
+> [#yourturn]{style="color: green"}
+>
+> Do you think ego depletion exists?
+
+The debate about ego depletion shows that individual findings should be reassessed in several empirical demonstrations, including replication attempts that can provide a more realistic picture of the effect or construct. In this case, the original ego depletion effect may have been initially inflated due to publication bias. Following closer examination, it is less certain whether this effect indeed exists. The example of the ego depletion literature also shows the importance of examining the evidence closely, under the microscope, in order to ensure that it meets the quality criteria that are essential for assessing cumulative evidence of the overall effect.

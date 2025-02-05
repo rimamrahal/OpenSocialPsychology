@@ -1,0 +1,12 @@
+# [How this Book Came to Be]{style="color: #004b23"} {.unnumbered}
+
+[written by Flávio Azevedo and Rima-Maria Rahal]{style="color: gray;"}
+
+Social psychology is devoted to studying how individuals behave, think and feel within their social contexts. The field is therefore, by its very nature, set up for collaborative work. Leveraging the social context in which knowledge is generated is built in to the assumptions and interests that social psychology pursues. This fundamental attitude towards social embeddedness of knowledge is mirrored in the process by which this study book came to be. 
+
+It started by bringing together the work of students at Heidelberg University during the winter term of 2023. In the scope of classwork, they engaged with classical findings of social psychology, and discussed recent attempts to reengage with these classics. These works are the basis of the current book. 
+
+Researchers working on (areas related to) social psychology then revised these chapters. Through engaging the communities at the Big Team Science Conference 2024 ([BTScon](https://bigteamscienceconference.github.io)), and the Framework for Open and Reproducible Research Training ([FORRT](https://forrt.org)), we found collaborators willing to contribute their knowledge and expertise to turning chapter drafts into an approachable and fact checked resource.
+
+Consequently, this volume offers diverse perspectives on a shared target topic: Changing perceptions of classical social psychological research.
+
