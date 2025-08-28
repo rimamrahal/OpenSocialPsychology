@@ -1,6 +1,6 @@
 # [Ego Depletion]{style="color: #004b23"}
 
-[written by Hannah Baumgart and Rima-Maria Rahal]{style="color: gray;"}
+[written by Hannah Baumgart (original draft) and Rima-Maria Rahal (revision)]{style="color: gray;"}
 
 ## The Classic
 

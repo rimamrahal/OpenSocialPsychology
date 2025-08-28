@@ -1,5 +1,7 @@
 # [Introduction]{style="color: #004b23"} {.unnumbered}
 
+[written by Rima-Maria Rahal]{style="color: gray;"}
+
 ## The Role of Change for Scientific Discovery
 
 Much of science capitalizes on change. It is the engine that drives progress and the expansion of knowledge [see @kuhn1962structure; @popper1959logic]. Embracing change means taking established theories and challenging them to explore new directions. Changing perspectives, questioning the status quo, refining existing concepts, and adapting to new evidence provide the stuff that makes breakthroughs or new insights. In essence, change in science represents taking steps forward, toward greater insight and reality checks for the challenges we face. In other words, to push the boundaries of what we know, we must make change.
@@ -32,7 +34,7 @@ Change often implies the potential for a changed perception of what used to be, 
 
 In this spirit, when reading about the changes in perspective about classics in social psychology, there are two things to embrace: 
 
-On the one hand, revisiting classic social psychology studies is a demonstration on the profound impact they had on the field. Were they less important and less impactful, these studies would not draw continued debate, research interest and investment of resources. Therefore, reading classic studies can give readers a sense of what matters to social psychological research, from hot topics to hot paradigms and research methods.  
+On the one hand, revisiting classic social psychology studies is a demonstration of the profound impact they had on the field. Were they less important and less impactful, these studies would not draw continued debate, research interest and investment of resources. Therefore, reading classic studies can give readers a sense of what matters to social psychological research, from hot topics to hot paradigms and research methods.  
 
 On the other hand, following the course of the academic debate about these claims, insights and phenomena allows us to hone our skills in accumulating insights and adjusting our perception of the currently held beliefs in this area of research. Put differently, tracing efforts to replicate, to conduct meta-analyses or to establish boundary conditions to the findings postulated in a certain study mostly reflects well-intentioned interest in assessing the validity of the claims of the original study, attempting to produce clarity about our collective knowledge about the phenomenon of interest. Reassessing classical studies might require change in opinions, calibration and reflection, but it can surely spark renewed trust in research and in its ability to refine and build our joint knowledge. 
 

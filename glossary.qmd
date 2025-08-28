@@ -1,9 +1,21 @@
 # [Glossary]{style="color: #004b23"} {.unnumbered}
 
-In this glossary, you can find the terms defined in this book in alphabetical order.
+In this glossary, you can find the terms defined in this book in alphabetical order. Headings are clickable links that show you how the context of the term in one of the chapters of this book.
+
+#### [Availability Heuristic](chapter2.qmd#def-availabilityheuristic)
+A mental shortcut where people estimate the likelihood of an event based on how easily examples come to mind, which can lead to overestimating rare but memorable occurrences.
+
+#### [Bias](chapter2.qmd#def-bias)
+A systematic distortion of perception or judgment.
+
+#### [Effect Size](chapter2.qmd#def-effectsize)
+A quantitative measure of the magnitude of a phenomenon, used to assess the practical significance of research findings.
 
 #### [Ego Depletion](chapter1.qmd#def-egodepletion)
 A concept that describes willpower as a limited resource that can be used up (depleted).
+
+#### [False Consensus Effect](chapter2.qmd#def-falseconsensus)
+A cognitive bias where individuals overestimate the extent to which others share their beliefs, preferences, and behaviors.
 
 #### [Multi-Lab Study](chapter1.qmd#def-multilabstudy)
 A research project in which researchers working at several different locations (laboratories) implement the same experimental design and then analyse the data together.

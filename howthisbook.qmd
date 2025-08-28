@@ -6,7 +6,17 @@ Social psychology is devoted to studying how individuals behave, think and feel 
 
 It started by bringing together the work of students at Heidelberg University during the winter term of 2023. In the scope of classwork, they engaged with classical findings of social psychology, and discussed recent attempts to reengage with these classics. These works are the basis of the current book. 
 
-Researchers working on (areas related to) social psychology then revised these chapters. Through engaging the communities at the Big Team Science Conference 2024 ([BTScon](https://bigteamscienceconference.github.io)), and the Framework for Open and Reproducible Research Training ([FORRT](https://forrt.org)), we found collaborators willing to contribute their knowledge and expertise to turning chapter drafts into an approachable and fact checked resource.
+Researchers working on (areas related to) social psychology then revised these chapters. Through engaging the communities at the Big Team Science Conference 2024 ([BTScon](https://bigteamscienceconference.github.io)), the 2025 annual meeting of the Society for the Improvement of Psychological Science ([SIPS](http://improvingpsych.org)) and the Framework for Open and Reproducible Research Training ([FORRT](https://forrt.org)), we found collaborators willing to contribute their knowledge and expertise to turning chapter drafts into an approachable and fact checked resource. 
 
-Consequently, this volume offers diverse perspectives on a shared target topic: Changing perceptions of classical social psychological research.
+![](FORRT.png "FORRT logo")
+<!--
+An *International Bridge-Building Award* of the Society for Personality and Social Psychology ([SPSP](https://spsp.org)) to members of [FORRT](https://forrt.org) in 2026 facilitated three online hackathons with researchers from the Global South, as well as marginalized and liminal scholars. 
+--->
+
+The creation of this book was also supported by the German Reproducibility Network ([GRN](https://reproducibilitynetwork.de)).
+
+By co-creating educational content with diverse participants rather than relying solely on traditional authority figures, the process of writing this book explicitly built in diverse perspectives and lived experiences of groups who may otherwise not have access to such contribution opportunities. This process promoted cross-cultural scholarly exchange on replication and reproducibility in social psychology, and made this educational resource more inclusive by reflecting diverse perspectives.
+
+In sum, this volume offers diverse perspectives on a shared target topic: Changing perceptions of classical social psychological research.
+
 
